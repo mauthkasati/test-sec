@@ -1,0 +1,4 @@
+#Thu Aug 17 18:53:58 IDT 2023
+base.0=C\:\\face_detection_tests\\Muath_Abduallah-abdullah\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
