@@ -1,10 +1,12 @@
 import 'dart:convert';
 
 import 'package:awesome_dialog/awesome_dialog.dart';
+import 'package:camera/camera.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import '../face_relations/take_picture.dart';
 import '../providers/main_provider.dart';
 
 class OneUser extends StatelessWidget {
@@ -43,7 +45,18 @@ class OneUser extends StatelessWidget {
                 ),
                 title: 'This is Ignored',
                 desc: 'This is also Ignored',
-                btnOkOnPress: () {
+                btnOkOnPress: () async{
+                  final cameras = await availableCameras();
+                  final firstCamera = cameras.firstWhere(
+                        (camera) => camera.lensDirection == CameraLensDirection.front,
+                  );
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      // builder: (context) => FaceDetectorView(proMain.employeesList),
+                      builder: (context) => TakePicture(camera: firstCamera),
+                    ),
+                  );
                   // Navigator.of(context).push(
                   //   MaterialPageRoute(
                   //     // builder: (context) => FaceDetectorView2(id,name),

@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:C:\face_detection_tests\Muath_Abduallah-abdullah\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\app\intermediates\flutter\release\libs.jar"
-      resolved="__local_aars__:C:\face_detection_tests\Muath_Abduallah-abdullah\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
+      name="__local_aars__:C:\face_detection_tests\test-sec\build\app\intermediates\flutter\release\libs.jar:unspecified@jar"
+      jars="C:\face_detection_tests\test-sec\build\app\intermediates\flutter\release\libs.jar"
+      resolved="__local_aars__:C:\face_detection_tests\test-sec\build\app\intermediates\flutter\release\libs.jar:unspecified"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:shared_preferences_android::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\shared_preferences_android\.transforms\8abeeceab2f34c4210629a5542828a28\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\shared_preferences_android\.transforms\8abeeceab2f34c4210629a5542828a28\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:shared_preferences_android::release"
+      jars="C:\face_detection_tests\test-sec\build\shared_preferences_android\.transforms\60764e0a38406b7e3069692a8a0e420b\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\shared_preferences_android\.transforms\60764e0a38406b7e3069692a8a0e420b\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\shared_preferences_android\.transforms\8abeeceab2f34c4210629a5542828a28\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\shared_preferences_android\.transforms\60764e0a38406b7e3069692a8a0e420b\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:geolocator_android::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\.transforms\8868b5d830dff736207f29860fc14c3e\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\.transforms\8868b5d830dff736207f29860fc14c3e\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:geolocator_android::release"
+      jars="C:\face_detection_tests\test-sec\build\geolocator_android\.transforms\5c92fb3da21357b8a58904ea1111cc19\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\geolocator_android\.transforms\5c92fb3da21357b8a58904ea1111cc19\transformed\out\jars\libs\R.jar"
       resolved="com.baseflow.geolocator:geolocator_android:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\.transforms\8868b5d830dff736207f29860fc14c3e\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\geolocator_android\.transforms\5c92fb3da21357b8a58904ea1111cc19\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:flutter_plugin_android_lifecycle::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\flutter_plugin_android_lifecycle\.transforms\a10ba96d75d4a6229a15bd50d5f2bbbd\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\flutter_plugin_android_lifecycle\.transforms\a10ba96d75d4a6229a15bd50d5f2bbbd\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:flutter_plugin_android_lifecycle::release"
+      jars="C:\face_detection_tests\test-sec\build\flutter_plugin_android_lifecycle\.transforms\26efa403d03d82c35631f00b8cfdfb60\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\flutter_plugin_android_lifecycle\.transforms\26efa403d03d82c35631f00b8cfdfb60\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\flutter_plugin_android_lifecycle\.transforms\a10ba96d75d4a6229a15bd50d5f2bbbd\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\flutter_plugin_android_lifecycle\.transforms\26efa403d03d82c35631f00b8cfdfb60\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:geocoding_android::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\geocoding_android\.transforms\d1ef4c5fcc9bf5fc383690153b98e3b8\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\geocoding_android\.transforms\d1ef4c5fcc9bf5fc383690153b98e3b8\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:geocoding_android::release"
+      jars="C:\face_detection_tests\test-sec\build\geocoding_android\.transforms\f644669a90f3391252dfb6b5dd797b5d\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\geocoding_android\.transforms\f644669a90f3391252dfb6b5dd797b5d\transformed\out\jars\libs\R.jar"
       resolved="com.baseflow.geocoding:geocoding_android:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\geocoding_android\.transforms\d1ef4c5fcc9bf5fc383690153b98e3b8\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\geocoding_android\.transforms\f644669a90f3391252dfb6b5dd797b5d\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:camera_android::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\.transforms\0d42f035b0e70565a9917626053c68ad\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\.transforms\0d42f035b0e70565a9917626053c68ad\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:camera_android::release"
+      jars="C:\face_detection_tests\test-sec\build\camera_android\.transforms\0616e46b25ad526127ccb8cfac67735f\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\camera_android\.transforms\0616e46b25ad526127ccb8cfac67735f\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.camera:camera_android:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\.transforms\0d42f035b0e70565a9917626053c68ad\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\camera_android\.transforms\0616e46b25ad526127ccb8cfac67735f\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:flutter_image_compress_common::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\flutter_image_compress_common\.transforms\f82a2669c059db0f3827bcfbac29b7b9\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\flutter_image_compress_common\.transforms\f82a2669c059db0f3827bcfbac29b7b9\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:flutter_image_compress_common::release"
+      jars="C:\face_detection_tests\test-sec\build\flutter_image_compress_common\.transforms\e95ba58e3282030140b2cb682e8a7740\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\flutter_image_compress_common\.transforms\e95ba58e3282030140b2cb682e8a7740\transformed\out\jars\libs\R.jar"
       resolved="com.fluttercandies.flutter_image_compress:flutter_image_compress_common:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\flutter_image_compress_common\.transforms\f82a2669c059db0f3827bcfbac29b7b9\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\flutter_image_compress_common\.transforms\e95ba58e3282030140b2cb682e8a7740\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:device_info_plus::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\.transforms\f689f04806c1c6ecd906e1baff38a45d\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\.transforms\f689f04806c1c6ecd906e1baff38a45d\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:device_info_plus::release"
+      jars="C:\face_detection_tests\test-sec\build\device_info_plus\.transforms\187859ecf11cb7207e5eb7236137e5be\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\device_info_plus\.transforms\187859ecf11cb7207e5eb7236137e5be\transformed\out\jars\libs\R.jar"
       resolved="dev.fluttercommunity.plus.device_info:device_info_plus:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\.transforms\f689f04806c1c6ecd906e1baff38a45d\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\device_info_plus\.transforms\187859ecf11cb7207e5eb7236137e5be\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:path_provider_android::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\path_provider_android\.transforms\209f94bd041c3e5ad0dea9b7e2b7ec06\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\path_provider_android\.transforms\209f94bd041c3e5ad0dea9b7e2b7ec06\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:path_provider_android::release"
+      jars="C:\face_detection_tests\test-sec\build\path_provider_android\.transforms\ec906c0348cae19acd5565c9876c4adc\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\path_provider_android\.transforms\ec906c0348cae19acd5565c9876c4adc\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\path_provider_android\.transforms\209f94bd041c3e5ad0dea9b7e2b7ec06\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\path_provider_android\.transforms\ec906c0348cae19acd5565c9876c4adc\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -108,10 +108,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="C:\face_detection_tests\Muath_Abduallah-abdullah\android@@:local_auth_android::release"
-      jars="C:\face_detection_tests\Muath_Abduallah-abdullah\build\local_auth_android\.transforms\10a1d0c4869e8f3a333b6833a543df66\transformed\out\jars\classes.jar;C:\face_detection_tests\Muath_Abduallah-abdullah\build\local_auth_android\.transforms\10a1d0c4869e8f3a333b6833a543df66\transformed\out\jars\libs\R.jar"
+      name="C:\face_detection_tests\test-sec\android@@:local_auth_android::release"
+      jars="C:\face_detection_tests\test-sec\build\local_auth_android\.transforms\72e6040b424e240fe328f2b2314a8bff\transformed\out\jars\classes.jar;C:\face_detection_tests\test-sec\build\local_auth_android\.transforms\72e6040b424e240fe328f2b2314a8bff\transformed\out\jars\libs\R.jar"
       resolved="io.flutter.plugins.localauth:local_auth_android:unspecified"
-      folder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\local_auth_android\.transforms\10a1d0c4869e8f3a333b6833a543df66\transformed\out"
+      folder="C:\face_detection_tests\test-sec\build\local_auth_android\.transforms\72e6040b424e240fe328f2b2314a8bff\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

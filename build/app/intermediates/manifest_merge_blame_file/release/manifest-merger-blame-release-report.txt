@@ -6,25 +6,25 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml
+8-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml
+9-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml
 10    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-11-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:3:5-80
-11-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:3:22-78
+11-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:3:5-80
+11-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:3:22-78
 12    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-12-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:4:5-71
-12-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:4:22-69
+12-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:4:5-71
+12-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:4:22-69
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:5:5-66
-13-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:5:22-64
+13-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:5:5-66
+13-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:5:22-64
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-65
-14-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-62
+14-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-65
+14-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- suppress DeprecatedClassUsageInspection -->
-15-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
-15-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
+15-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-71
+15-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-68
 16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 16-->[androidx.biometric:biometric:1.1.0] C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
 16-->[androidx.biometric:biometric:1.1.0] C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
@@ -42,29 +42,29 @@
 23
 24    <application
 25        android:name="android.app.Application"
-25-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:8:9-42
+25-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:8:9-42
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.10.1] C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:9:9-43
+27-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:9:9-43
 28        android:label="resto_app" >
-28-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:7:9-34
+28-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:7:9-34
 29        <activity
-29-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:10:9-30:20
+29-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:10:9-30:20
 30            android:name="com.example.resto_app.MainActivity"
-30-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:11:13-41
+30-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:11:13-41
 31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-31-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:15:13-163
+31-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:15:13-163
 32            android:exported="true"
-32-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:12:13-36
+32-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:12:13-36
 33            android:hardwareAccelerated="true"
-33-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:16:13-47
+33-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:16:13-47
 34            android:launchMode="singleTop"
-34-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:13:13-43
+34-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:13:13-43
 35            android:theme="@style/LaunchTheme"
-35-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:14:13-47
+35-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:14:13-47
 36            android:windowSoftInputMode="adjustResize" >
-36-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:17:13-55
+36-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:17:13-55
 37
 38            <!--
 39                 Specifies an Android theme to apply to this Activity as soon as
@@ -73,21 +73,21 @@
 42                 to determine the Window background behind the Flutter UI.
 43            -->
 44            <meta-data
-44-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:22:13-25:17
+44-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:22:13-25:17
 45                android:name="io.flutter.embedding.android.NormalTheme"
-45-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:23:15-70
+45-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:23:15-70
 46                android:resource="@style/NormalTheme" />
-46-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:24:15-52
+46-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:24:15-52
 47
 48            <intent-filter>
-48-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:26:13-29:29
+48-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:26:13-29:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:27:17-68
-49-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:27:25-66
+49-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:27:17-68
+49-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:27:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:28:17-76
-51-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:28:27-74
+51-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:28:17-76
+51-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:28:27-74
 52            </intent-filter>
 53        </activity>
 54        <!--
@@ -95,22 +95,22 @@
 56             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 57        -->
 58        <meta-data
-58-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:33:9-35:33
+58-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:33:9-35:33
 59            android:name="flutterEmbedding"
-59-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:34:13-44
+59-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:34:13-44
 60            android:value="2" />
-60-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:35:13-30
+60-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:35:13-30
 61
 62        <service
-62-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+62-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
 63            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-63-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+63-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
 64            android:enabled="true"
-64-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+64-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
 65            android:exported="false"
-65-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+65-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
 66            android:foregroundServiceType="location" />
-66-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+66-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
 67
 68        <activity
 68-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45

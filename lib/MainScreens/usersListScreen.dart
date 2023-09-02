@@ -19,9 +19,9 @@ class _UsersListScreenState extends State<UsersListScreen> {
   @override
   void initState() {
     super.initState();
-    proMain = Provider.of<MainProvider>(context, listen: false);
-    proMain.setIsLoadingUsersListTrue();
-    proMain.setEmployeeListFromAPI();
+    // proMain = Provider.of<MainProvider>(context, listen: false);
+    // proMain.setIsLoadingUsersListTrue();
+    // proMain.setEmployeeListFromAPI();
   }
 
   @override
@@ -58,7 +58,7 @@ class _UsersListScreenState extends State<UsersListScreen> {
         ),
         child: proMain.isLoadingUsersList
             ? const CircularProgressIndicator()
-            : proMain.employeesList.isEmpty
+            : proMain.employeesList.isEmpty && false
                 ? Center(
                     child: Text(
                       'thereIsNoEmployees'.tr(),
@@ -75,11 +75,13 @@ class _UsersListScreenState extends State<UsersListScreen> {
                   )
                 : SingleChildScrollView(
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: proMain.employeesList.map((e) {
-                        return OneUser(e['name'], e['faceData'], e['id']);
-                      }).toList(),
-                    ),
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          OneUser("Muath", "", 5),
+                          OneUser("Ali", "", 6),
+                          OneUser("Mike", "", 7),
+                          OneUser("Imad", "", 8),
+                        ]),
                   ),
       ),
     );

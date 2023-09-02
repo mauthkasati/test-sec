@@ -13,24 +13,24 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:5:5-66
-15-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:5:22-64
+15-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:5:5-66
+15-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:5:22-64
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:5:5-66
-16-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:5:22-64
+16-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:5:5-66
+16-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:5:22-64
 17    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-17-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:4:5-71
-17-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:4:22-69
+17-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:4:5-71
+17-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:4:22-69
 18    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
 19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-19-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:3:5-80
-19-->C:\face_detection_tests\Muath_Abduallah-abdullah\android\app\src\main\AndroidManifest.xml:3:22-78
+19-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:3:5-80
+19-->C:\face_detection_tests\test-sec\android\app\src\main\AndroidManifest.xml:3:22-78
 20    <uses-permission android:name="android.permission.CAMERA" />
-20-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
-20-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+20-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+20-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
 21    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- suppress DeprecatedClassUsageInspection -->
-21-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
-21-->[:camera_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
+21-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
+21-->[:camera_android] C:\face_detection_tests\test-sec\build\camera_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
 22    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 22-->[androidx.biometric:biometric:1.1.0] C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
 22-->[androidx.biometric:biometric:1.1.0] C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\29a53b35c072e5e16e15ef7c62078a12\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
@@ -87,15 +87,15 @@
 67            android:value="2" />
 68
 69        <service
-69-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+69-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
 70            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-70-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+70-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
 71            android:enabled="true"
-71-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
+71-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
 72            android:exported="false"
-72-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+72-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 73            android:foregroundServiceType="location" />
-73-->[:geolocator_android] C:\face_detection_tests\Muath_Abduallah-abdullah\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
+73-->[:geolocator_android] C:\face_detection_tests\test-sec\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
 74
 75        <activity
 75-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\781e5567158e59d38ee2b89930f9808b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45

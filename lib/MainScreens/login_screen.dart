@@ -98,67 +98,72 @@ class LoginScreen extends StatelessWidget {
                       'username : ${controllerUser.text}\npassword : ${controllerPass.text}',
                     );
 
-                    var request = http.Request(
-                      'GET',
-                      Uri.parse(
-                        UsedAPIs.getOwnerLoginAPIURL(
-                            controllerUser.text, controllerPass.text),
+                    Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(
+                        builder: (context) => const MainScreen(),
                       ),
                     );
-
-                    http.StreamedResponse response = await request.send();
-
-                    if (response.statusCode == 200) {
-                      print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
-
-                      print('fetch OwnerLogin API success');
-
-                      Map<String, dynamic> apiMap = jsonDecode(
-                        await response.stream.bytesToString(),
-                      );
-
-                      // set token and username to shared preferences
-                      await SharedPreferencesHelper.preferences.setString(
-                        'token',
-                        apiMap['token'],
-                      );
-                      await SharedPreferencesHelper.preferences.setString(
-                        'username',
-                        controllerUser.text,
-                      );
-
-                      Navigator.of(context).pushReplacement(
-                        MaterialPageRoute(
-                          builder: (context) => const MainScreen(),
-                        ),
-                      );
-                    } else {
-                      AwesomeDialog(
-                        context: context,
-                        animType: AnimType.SCALE,
-                        dialogType: DialogType.ERROR,
-                        btnOkText: 'ok'.tr(),
-                        body: Center(
-                          child: Text(
-                            'invalid'.tr(),
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.vazirmatn(
-                              color: Colors.black,
-                              textStyle: const TextStyle(
-                                fontSize: 20,
-                                fontWeight: FontWeight.w700,
-                              ),
-                              decoration: TextDecoration.none,
-                            ),
-                          ),
-                        ),
-                        title: 'This is Ignored',
-                        desc: 'This is also Ignored',
-                        btnOkOnPress: () {},
-                      ).show();
-                      print('sssssssssssssssssssssss');
-                      print(response.reasonPhrase);
-                    }
+                    // var request = http.Request(
+                    //   'GET',
+                    //   Uri.parse(
+                    //     UsedAPIs.getOwnerLoginAPIURL(
+                    //         controllerUser.text, controllerPass.text),
+                    //   ),
+                    // );
+                    //
+                    // http.StreamedResponse response = await request.send();
+                    //
+                    // if (response.statusCode == 200) {
+                    //   print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
+                    //
+                    //   print('fetch OwnerLogin API success');
+                    //
+                    //   Map<String, dynamic> apiMap = jsonDecode(
+                    //     await response.stream.bytesToString(),
+                    //   );
+                    //
+                    //   // set token and username to shared preferences
+                    //   await SharedPreferencesHelper.preferences.setString(
+                    //     'token',
+                    //     apiMap['token'],
+                    //   );
+                    //   await SharedPreferencesHelper.preferences.setString(
+                    //     'username',
+                    //     controllerUser.text,
+                    //   );
+                    //
+                    //   Navigator.of(context).pushReplacement(
+                    //     MaterialPageRoute(
+                    //       builder: (context) => const MainScreen(),
+                    //     ),
+                    //   );
+                    // } else {
+                    //   AwesomeDialog(
+                    //     context: context,
+                    //     animType: AnimType.SCALE,
+                    //     dialogType: DialogType.ERROR,
+                    //     btnOkText: 'ok'.tr(),
+                    //     body: Center(
+                    //       child: Text(
+                    //         'invalid'.tr(),
+                    //         textAlign: TextAlign.center,
+                    //         style: GoogleFonts.vazirmatn(
+                    //           color: Colors.black,
+                    //           textStyle: const TextStyle(
+                    //             fontSize: 20,
+                    //             fontWeight: FontWeight.w700,
+                    //           ),
+                    //           decoration: TextDecoration.none,
+                    //         ),
+                    //       ),
+                    //     ),
+                    //     title: 'This is Ignored',
+                    //     desc: 'This is also Ignored',
+                    //     btnOkOnPress: () {},
+                    //   ).show();
+                    //   print('sssssssssssssssssssssss');
+                    //   print(response.reasonPhrase);
+                    // }
                   },
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,

@@ -26,7 +26,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     // define used provider
-    final proMain = Provider.of<MainProvider>(context);
+    // final proMain = Provider.of<MainProvider>(context);
 
     // define height and width
     final double h = MediaQuery.of(context).size.height;
@@ -72,7 +72,7 @@ class _MainScreenState extends State<MainScreen> {
             GestureDetector(
               onTap: () {
                 // set employees list for chosen branch
-                proMain.setEmployeeListFromAPI();
+                // proMain.setEmployeeListFromAPI();
                 // go to userList screen
                 Navigator.of(context).push(
                   MaterialPageRoute(
@@ -278,7 +278,7 @@ class _MainScreenState extends State<MainScreen> {
                                   (camera) => camera.lensDirection == CameraLensDirection.front,
                             );
 
-                            proMain.setEmployeeListFromAPI();
+                            // proMain.setEmployeeListFromAPI();
 
                             Navigator.push(
                               context,

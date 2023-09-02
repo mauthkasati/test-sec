@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="C:\face_detection_tests\Muath_Abduallah-abdullah\android\app"
+    dir="C:\face_detection_tests\test-sec\android\app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.3.0"
-    buildFolder="C:\face_detection_tests\Muath_Abduallah-abdullah\build\app"
+    buildFolder="C:\face_detection_tests\test-sec\build\app"
     bootClassPath="C:\Users\Muath\Android\Sdk\platforms\android-33\android.jar;C:\Users\Muath\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-33">

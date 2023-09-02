@@ -151,6 +151,7 @@ class _FirstScreenState extends State<FirstScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () async {
+                                proMain.setMsgID(1);
                                 print('hellllllllllllo');
                                 // _getAddressFromLatLng(_currentPosition!);
                                 // print(_currentAddress);
@@ -187,7 +188,8 @@ class _FirstScreenState extends State<FirstScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () {
-                                proMain.setEmployeeOperation('LOGOUT', 6666, 2);
+                                proMain.setMsgID(2);
+                                // proMain.setEmployeeOperation('LOGOUT', 6666, 2);
                               },
                             ).show();
                             proMain.setMessage(context.locale == Locale('ar'));
@@ -219,8 +221,9 @@ class _FirstScreenState extends State<FirstScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () {
-                                proMain.setEmployeeOperation(
-                                    'BREAKIN', 7777, 3);
+                                proMain.setMsgID(3);
+                                // proMain.setEmployeeOperation(
+                                //     'BREAKIN', 7777, 3);
                               },
                             ).show();
                             proMain.setMessage(context.locale == Locale('ar'));
@@ -252,8 +255,9 @@ class _FirstScreenState extends State<FirstScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () {
-                                proMain.setEmployeeOperation(
-                                    'BREAKOUT', 8888, 4);
+                                proMain.setMsgID(4);
+                                // proMain.setEmployeeOperation(
+                                //     'BREAKOUT', 8888, 4);
                               },
                             ).show();
                             proMain.setMessage(context.locale == Locale('ar'));
@@ -286,8 +290,8 @@ class _FirstScreenState extends State<FirstScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () async {
-                                await proMain.setEmployeeOperation(
-                                    'LOGIN', 9999, 1);
+                                // await proMain.setEmployeeOperation(
+                                //     'LOGIN', 9999, 1);
                                 // await proMain.setMessage(context.locale == Locale('ar'));
                               },
                             ).show();
@@ -320,8 +324,8 @@ class _FirstScreenState extends State<FirstScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () async {
-                                await proMain.setEmployeeOperation(
-                                    'LOGIN', 4444, 1);
+                                // await proMain.setEmployeeOperation(
+                                //     'LOGIN', 4444, 1);
                                 // await proMain.setMessage(context.locale == Locale('ar'));
                               },
                             ).show();
@@ -447,7 +451,7 @@ class _FirstScreenState extends State<FirstScreen> {
       setState(() => _currentPosition = position);
       _getAddressFromLatLng(_currentPosition!);
     }).catchError((e) {
-      debugPrint(e);
+      debugPrint(e.toString());
     });
   }
 

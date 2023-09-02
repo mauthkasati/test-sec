@@ -100,7 +100,7 @@ class _OptionsScreenState extends State<OptionsScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () async{
-                                await proMain.setEmployeeOperation('LOGIN', widget.id, 1);
+                                // await proMain.setEmployeeOperation('LOGIN', widget.id, 1);
                                 // await proMain.setMessage(context.locale == Locale('ar'));
                               },
                             ).show();
@@ -132,7 +132,7 @@ class _OptionsScreenState extends State<OptionsScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () {
-                                proMain.setEmployeeOperation('LOGOUT', widget.id, 2);
+                                // proMain.setEmployeeOperation('LOGOUT', widget.id, 2);
                               },
                             ).show();
                             proMain.setMessage(context.locale == Locale('ar'));
@@ -164,7 +164,7 @@ class _OptionsScreenState extends State<OptionsScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () {
-                                proMain.setEmployeeOperation('BREAKIN', widget.id, 3);
+                                // proMain.setEmployeeOperation('BREAKIN', widget.id, 3);
                               },
                             ).show();
                             proMain.setMessage(context.locale == Locale('ar'));
@@ -196,7 +196,7 @@ class _OptionsScreenState extends State<OptionsScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () {
-                                proMain.setEmployeeOperation('BREAKOUT', widget.id, 4);
+                                // proMain.setEmployeeOperation('BREAKOUT', widget.id, 4);
                               },
                             ).show();
                             proMain.setMessage(context.locale == Locale('ar'));
@@ -229,7 +229,7 @@ class _OptionsScreenState extends State<OptionsScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () async{
-                                await proMain.setEmployeeOperation('LOGIN', widget.id, 1);
+                                // await proMain.setEmployeeOperation('LOGIN', widget.id, 1);
                                 // await proMain.setMessage(context.locale == Locale('ar'));
                               },
                             ).show();
@@ -262,7 +262,7 @@ class _OptionsScreenState extends State<OptionsScreen> {
                               title: 'This is Ignored',
                               desc: 'This is also Ignored',
                               btnOkOnPress: () async{
-                                await proMain.setEmployeeOperation('LOGIN', widget.id, 1);
+                                // await proMain.setEmployeeOperation('LOGIN', widget.id, 1);
                                 // await proMain.setMessage(context.locale == Locale('ar'));
                               },
                             ).show();

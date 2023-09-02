@@ -4,9 +4,9 @@ dev.fluttercommunity.plus.device_info.device_info_plus-core-1.6.0-2 C:\Users\MSI
 dev.fluttercommunity.plus.device_info.device_info_plus-jetified-window-java-1.0.0-beta04-3 C:\Users\MSI GE76 Raider\.gradle\caches\transforms-3\ae81e06d24c799147c26814497a2a305\transformed\jetified-window-java-1.0.0-beta04\res
 dev.fluttercommunity.plus.device_info.device_info_plus-main-4 C:\Users\MSI GE76 Raider\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-9.0.3\android\src\main\res
 dev.fluttercommunity.plus.device_info.device_info_plus-release-5 C:\Users\MSI GE76 Raider\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-9.0.3\android\src\release\res
-dev.fluttercommunity.plus.device_info.device_info_plus-pngs-6 C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\generated\res\pngs\release
-dev.fluttercommunity.plus.device_info.device_info_plus-resValues-7 C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\generated\res\resValues\release
-dev.fluttercommunity.plus.device_info.device_info_plus-rs-8 C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\generated\res\rs\release
-dev.fluttercommunity.plus.device_info.device_info_plus-mergeReleaseResources-9 C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\intermediates\incremental\release\mergeReleaseResources\merged.dir
-dev.fluttercommunity.plus.device_info.device_info_plus-mergeReleaseResources-10 C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-dev.fluttercommunity.plus.device_info.device_info_plus-merged_res-11 C:\face_detection_tests\Muath_Abduallah-abdullah\build\device_info_plus\intermediates\merged_res\release
+dev.fluttercommunity.plus.device_info.device_info_plus-pngs-6 C:\face_detection_tests\test-sec\build\device_info_plus\generated\res\pngs\release
+dev.fluttercommunity.plus.device_info.device_info_plus-resValues-7 C:\face_detection_tests\test-sec\build\device_info_plus\generated\res\resValues\release
+dev.fluttercommunity.plus.device_info.device_info_plus-rs-8 C:\face_detection_tests\test-sec\build\device_info_plus\generated\res\rs\release
+dev.fluttercommunity.plus.device_info.device_info_plus-mergeReleaseResources-9 C:\face_detection_tests\test-sec\build\device_info_plus\intermediates\incremental\release\mergeReleaseResources\merged.dir
+dev.fluttercommunity.plus.device_info.device_info_plus-mergeReleaseResources-10 C:\face_detection_tests\test-sec\build\device_info_plus\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+dev.fluttercommunity.plus.device_info.device_info_plus-merged_res-11 C:\face_detection_tests\test-sec\build\device_info_plus\intermediates\merged_res\release
